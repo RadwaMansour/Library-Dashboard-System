@@ -1,0 +1,50 @@
+.tabRequest {
+  height: 50vh;
+  width: 60%;
+  margin: 50px 0px;
+  border-spacing: 5px;
+  background-color: #755139ff;
+  color: #755139ff;
+  margin-left: 400px;
+  text-align: center;
+}
+tr {
+  background-color: #755139ff;
+}
+
+th {
+  font-size: 25px;
+  text-align: center;
+  background-color: #d4b996ff;
+}
+
+td {
+  font-size: 22px;
+  background-color: #d4b996ff;
+}
+
+
+  .input{
+    background-color: rgb(240, 218, 189);
+    color:#755139FF;
+  }
+  .btndelete{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #755139FF; 
+    color: #D4B996FF;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 11px;
+    text-decoration: none;
+    width: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }

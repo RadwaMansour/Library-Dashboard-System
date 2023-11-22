@@ -1,0 +1,86 @@
+.form-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: linear-gradient(79deg, #755139FF, rgb(150, 105, 75) 48%,#D4B996FF);
+    
+
+}
+
+.container{
+    padding: 4rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.3rem;
+    background-color: white;
+}
+.login-form, .signup-form{
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+   
+}
+h2{
+    color:  #755139FF;
+    text-align: center;
+}
+label{
+    font-size: 15px;
+    color: gray;
+}
+input{
+    width: 80%;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    display: block;
+
+}
+.buttonLogin{
+    border: none;
+    background-color: #755139FF;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 90%;
+    height: 50px;
+    margin-top:15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.link-btn{
+    border: none;
+    cursor: pointer;
+    color: #755139FF;
+    font-weight: bold;
+    font-size: 18px;
+}
+ 
+span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    display: block;
+    display: none;
+}
+input:invalid[focused="true"] ~ span{
+    display: block;
+}
+.login-alert{
+    min-height: 20px;
+    width: 200px;
+    display: inline;
+    align-items: center;
+    color:red;
+    font-size: 11px;
+    margin: 0px;
+    margin-top: 10px;
+  
+  }

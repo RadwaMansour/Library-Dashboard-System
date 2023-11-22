@@ -1,0 +1,135 @@
+.manageRequest {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  color-interpolation-filters: #D4B996FF;
+}
+.searchRequest{
+  padding: 10px;
+  width: 80%;
+  font-size: 20px;
+  margin-left: 50rem;
+  background-color: rgb(240, 218, 189);
+  color:#755139FF;
+
+}
+.history{
+  height: 75vh;
+  margin-top: 100px;
+}
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #D4B996FF;
+  font-weight: 300;
+
+}
+  
+
+.tableRequest {
+ height: 50vh;
+  width: 60%;
+  margin: 50px 0px;
+  border-spacing: 5px;
+  background-color: #755139FF;
+  color:  #755139FF;
+  margin-left: 400px;
+  text-align: center;
+}
+.add{
+  margin: 50px 0px;
+  border-spacing: 15px;
+  color: #D4B996FF;
+  margin-left: 500px;
+  text-align: center;
+  width: 50%;
+
+}
+
+
+tr {
+
+  background-color: #755139FF;
+  
+
+
+}
+
+th {
+  font-size: 25px;
+  text-align: center;
+  background-color: #D4B996FF;
+  
+}
+
+td {
+  font-size: 22px;
+  background-color: #D4B996FF;
+  
+}
+.buttonRequest{
+  text-align: center;
+  font-weight: bolder;
+  background-color:#755139FF;
+  color:#D4B996FF;; 
+  padding: 10px;
+  width: 20%;
+  
+  
+}
+.button{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 45px;
+  margin-top:30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: #755139FF; 
+  color: #D4B996FF;
+  margin-left: 10px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 11px;
+  text-decoration: none;
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.buttonadd{
+   width: 20%;
+   margin-right: 100px;
+}
+.input{
+  background-color: rgb(240, 218, 189);
+  color:#755139FF;
+}
+.newRequest{
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 20%;
+  height: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: rgb(240, 218, 189);
+  color:#755139FF;
+  margin-left: 140rem;
+}
+.text2{
+  color:  rgb(240, 218, 189);
+  text-align: center;
+  margin-left: 50rem;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
