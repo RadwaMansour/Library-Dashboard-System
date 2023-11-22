@@ -1,0 +1,37 @@
+.search{
+    flex: 4;
+     margin: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-left: 250px;
+}
+.book-list{
+    flex: 4;
+   min-height: 100vh;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 250px;
+
+    
+}
+
+.book-list .book-card{
+    width: 25%;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.searchreq{
+    padding: 10px;
+    width: 45%;
+    font-size: 20px;
+    margin-left: 40rem;
+    background-color: rgb(240, 218, 189);
+    color:#755139FF;
+}

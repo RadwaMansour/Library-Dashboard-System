@@ -1,0 +1,114 @@
+.loader {
+  border: 16px solid #d4b996ff;
+  border-radius: 50%;
+  border-top: 16px solid #755139ff;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.book-info {
+  margin-left: 250px;
+}
+.book-image {
+  width: 20%;
+  height: 300px;
+  object-Fit: cover;
+  border-radius: 10px;
+  margin-left: 390px;
+}
+
+.request-container {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+.create-request {
+  width: 30%;
+  background-color: #d4b996ff;
+  color: #755139ff;
+  width: 50%;
+}
+.h1request {
+  margin: 10px;
+  margin-left: 440px;
+  color: #d4b996ff;
+}
+.prequest {
+  border: 1px solid #d4b996ff;
+  border-radius: 5%;
+  padding: 10px;
+  font-weight: bolder;
+  color: #d4b996ff;
+  font-size: 15px;
+  margin: 30px;
+  width: 50%;
+  margin-left: 210px;
+
+}
+.h3request {
+  text-align: center;
+  margin: 30px;
+  color: #d4b996ff;
+}
+.create-request {
+  margin-left: 400px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  width: 20%;
+}
+
+.tblrequest{
+  height: 30vh;
+  width: 50%;
+  margin: 10px 0px;
+  border-spacing: 5px;
+  background-color: #755139ff;
+  color: #755139ff;
+  margin-left:200px;
+  text-align: center;
+}
+tr {
+  background-color: #755139ff;
+}
+
+td {
+  font-size: 22px;
+  background-color: #d4b996ff;
+}
+
+.bdelete{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 45px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #755139FF; 
+    color: #D4B996FF;
+    margin-left: 10px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 10px;
+    text-decoration: none;
+    width: 60%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .tdrequest{
+    width: 20px;
+  }

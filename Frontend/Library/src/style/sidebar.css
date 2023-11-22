@@ -1,0 +1,53 @@
+
+.Sidebar{
+   flex: 1;
+   min-height: 100vh;
+    height: 100%;
+    width: 240px;
+    z-index: 1000;
+    /*background-color:rgb(170, 142, 105);*/
+    /*background-color:rgb(175, 143, 97);*/
+    background-color:rgb(97, 66, 45);
+    position: fixed;
+    top: 50px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  .SidebarList{
+    width: 95%;
+    height: auto;
+    margin-top: 100px;
+    margin: 0;
+    
+  }
+  .SidebarList .row{
+    width: 80%;
+    height: 60px;
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: none;
+    flex-direction: row;
+    color: rgb(238, 214, 182);
+    justify-content: center;
+    align-items: center;
+    padding: 3px 2px 3px 15px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    
+  }
+  .SidebarList .row:hover{
+    /*color: rgb(194, 152, 124);*/
+    cursor: pointer;
+    background-color:rgb(129, 96, 74);
+    margin-left: 3px;
+    padding-right: 40px;
+    justify-content: center;
+   
+  }
+ 
+   .row #title{
+    flex: 70%;
+  }
